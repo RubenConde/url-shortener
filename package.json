@@ -1,0 +1,23 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/RubenConde/url-shortener/issues"
+  },
+  "description": "Url shortener with a simple interface and created to be used with Netlify and its redirection system.",
+  "devDependencies": {
+    "netlify-shortener": "^2.3.0"
+  },
+  "homepage": "https://url.rubenconde.com",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "url-shortener",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenConde/url-shortener.git"
+  },
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "version": "1.0.0"
+}
