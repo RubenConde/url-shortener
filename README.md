@@ -41,8 +41,20 @@ To configure this project you can follow the following steps:
    -  `npm install`
 
 3. Modify the homepage at `package.json`. This allows to **netlify-shortener** create a string with
-   the base of the url and the new ID for the redirect.
+   the base of the url and the new ID for the redirect. Your `package.json` should be usually like
+   this:
 
-```json
-
-```
+   ```json
+   {
+      "author": "Ruben Conde (https://rubn.xyz/home)",
+      "baseUrl": "https://rubn.xyz",
+      "devDependencies": {
+         "netlify-shortener": "^2.3.0"
+      },
+      "license": "MIT",
+      "private": true,
+      "scripts": {
+         "shorten": "netlify-shortener"
+      }
+   }
+   ```
