@@ -1,4 +1,4 @@
-# Netlify Url Shortener
+# Netlify Url Shortener [![Netlify Status](https://api.netlify.com/api/v1/badges/f999394f-00ce-4a76-b76e-552435915443/deploy-status)](https://app.netlify.com/sites/small-url/deploys)
 
 <p align="center">
   <img src="./assets/netlify-url-shortener.png" alt="Logo" />
@@ -46,8 +46,8 @@ To configure this project you can follow the following steps:
 
    ```json
    {
-      "author": "Ruben Conde (https://rubn.xyz/home)",
-      "baseUrl": "https://rubn.xyz",
+      "author": "YOUR INFO",
+      "baseUrl": "https://BASE-URL-FROM-NETLIFY.com",
       "devDependencies": {
          "netlify-shortener": "^2.3.0"
       },
@@ -58,3 +58,12 @@ To configure this project you can follow the following steps:
       }
    }
    ```
+
+4. Use the command to create the new short url. Now that you have configured the project you can use
+   the command `npm run shorten` to:
+
+   -  Format the list of urls.
+   -  Create a new url with a random identifier.
+   -  Create a new url with the identifier that you wish.
+
+More info about this [here](https://rubn.xyz/Dd6xr).
