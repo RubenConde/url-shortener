@@ -18,7 +18,7 @@ with Netlify you can:
 First of all, to personalize this project to your liking you can create a fork and _voilà_. You will
 have an integrated copy of the project in your repositories.
 
-## How ?
+## **How ?**
 
 This repository use the npm package [netlify-shortener](https://rubn.xyz/ztWYE). It does most of the
 work. Since, by means of this one, the addition of new url in the file "\_redirects" and the push to
@@ -26,7 +26,7 @@ the repository in Github is made to be able to execute the construction of the p
 
 For more information about the package [click here](https://rubn.xyz/ztWYE).
 
-## Project setup
+## **Project setup**
 
 To configure this project you can follow the following steps:
 
@@ -67,3 +67,11 @@ To configure this project you can follow the following steps:
    -  Create a new url with the identifier that you wish.
 
 More info about this [here](https://rubn.xyz/Dd6xr).
+
+## **Useful links**
+
+-  [Custom domain in Netlify](https://rubn.xyz/oXYWP)
+
+## **License**
+
+[MIT](LICENSE)
