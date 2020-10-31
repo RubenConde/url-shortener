@@ -1,5 +1,5 @@
 {
-   "author": "Ruben Conde <kent@doddsfamily.us> (https://rubn.xyz/home)",
+   "author": "Ruben Conde (https://rubn.xyz/home)",
    "baseUrl": "https://rubn.xyz",
    "devDependencies": {
       "netlify-shortener": "^2.3.0"
