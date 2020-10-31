@@ -1,8 +1,8 @@
 {
-   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
-   "baseUrl": "https://shortener-demo.netlify.com",
+   "author": "Ruben Conde <kent@doddsfamily.us> (https://rubn.xyz/home)",
+   "baseUrl": "https://rubn.xyz",
    "devDependencies": {
-      "netlify-shortener": "^1.0.0"
+      "netlify-shortener": "^2.3.0"
    },
    "license": "MIT",
    "private": true,
