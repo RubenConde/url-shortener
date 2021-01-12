@@ -1,12 +1,17 @@
 {
    "author": "Ruben Conde (https://rubn.xyz/home)",
    "baseUrl": "https://rubn.xyz",
+   "bin": {
+      "short-url": "cli.js"
+   },
    "devDependencies": {
       "netlify-shortener": "^2.3.0"
    },
    "license": "MIT",
+   "name": "url-shortener",
    "private": true,
    "scripts": {
       "shorten": "netlify-shortener"
-   }
+   },
+   "dependencies": {}
 }
