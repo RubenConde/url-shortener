@@ -12,6 +12,5 @@
    "private": true,
    "scripts": {
       "shorten": "netlify-shortener"
-   },
-   "dependencies": {}
+   }
 }
